@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import musicBackground from './images/musicBackground.png';
-import soundcloudIcon from './images/soundcloud-icon.gif';
-import bandcampIcon from './images/bandcamp-icon.gif';
+import soundcloudIcon from './images/soundcloud.png';
+import bandcampIcon from './images/bandcamp-icon.png';
 
 
 const Music = () => {

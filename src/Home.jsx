@@ -8,6 +8,7 @@ import musicIcon from './images/music-star.png';
 import starIcon from './images/star-icon.png.png';
 import youtubeIcon from './images/youtube-icon.png';
 import tumblrIcon from './images/tumblr-icon.png';
+import zineIcon from './images/zine-button.png';
 
 
 const Home = () => {
@@ -25,7 +26,11 @@ const Home = () => {
         <Link to="/contact">
         <img src={contactIcon} alt="Contact" style={{width: '250px', height: '250px', postion: 'relative', top: '00px', right: '100px' }} />
       </Link>
-     
+
+      <Link to="/zine">
+        <img src={zineIcon} alt="Zine" style={{width: '250px', height: '250px', postion: 'relative', top: '00px', right: '100px' }} />
+      </Link>
+
       <a href="https://morepeaches.tumblr.com/">
         <img src={tumblrIcon} alt="Tumblr" style={{width: '250px', height: '250px', position: 'relative', top: '300px', left: '600px' }} />
       </a>
