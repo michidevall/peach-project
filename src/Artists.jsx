@@ -1,5 +1,5 @@
 import React from 'react';
-import artistsBackground from './images/artistsBackground.jpg';
+import artistsBackground from './images/artistsBackground.png';
 
 const Artists = () => {
     return (
